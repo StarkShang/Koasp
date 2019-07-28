@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+
+# 输出文件夹
+dist/
+@types/
