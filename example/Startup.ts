@@ -1,5 +1,5 @@
-import { ApplicationBuilder } from "./Core/ApplicationBuilder";
-import { IStartup } from "./Core/IStartup";
+import { ApplicationBuilder } from "../src/Core/ApplicationBuilder";
+import { IStartup } from "../src/Core/IStartup";
 
 export class Startup implements IStartup {
     public Configure(app: ApplicationBuilder): void {
